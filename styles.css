@@ -26,15 +26,14 @@ header {
   max-width: 300px; /* Set a maximum width to ensure it doesn't become too large */
 }
 
-
-.ChurchName {
+.church-name {
   margin-top: 5px; /* Adjust spacing between logo and church name */
 }
 
-
 .contact-info p {
   margin: 5px 0;
-  color:white; /* Dark gray text color */
+  color: white; /* Dark gray text color */
+  font-size: 14px; /* Adjust font size for smaller screens */
 }
 
 .contact-info a {
@@ -91,14 +90,13 @@ footer {
 
 .background-images {
   display: flex;
-  animation: slideImages 40s infinite; 
- 
-  
+  flex-wrap: wrap; /* Ensure images wrap to the next line on smaller screens */
+  justify-content: space-between; /* Add space between images */
 }
 
 .background-images img {
-  width: 100%;
-  height: auto;
+  width: calc(33.33% - 10px); /* Adjust image width for 3 images per line with some gap */
+  margin-bottom: 10px; /* Add some gap between images */
 }
 
 @keyframes slideImages {
@@ -136,6 +134,7 @@ footer {
     transform: translateX(0);
   }
 }
+
 .custom-bullet-list {
   list-style-type: none;
 }
@@ -154,11 +153,12 @@ footer {
 .submit {
   margin-left: 140px;
 }
-.message{
-margin-bottom: 400px;
+
+.message {
+  margin-bottom: 400px;
 }
 
-.container{
+.container {
   margin-left: 10px;
 }
 
@@ -180,13 +180,7 @@ margin-bottom: 400px;
   max-width: 200px; /* Adjust logo size as needed */
 }
 
-.church-name {
-  font-size: 15px;
-  color:white;
-  
-}
-
-.copy{
+.copy {
   margin-left: 500px;
   margin-top: 1px;
 }
@@ -194,4 +188,16 @@ margin-bottom: 400px;
 .Navigations a {
   margin-left: 1px;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 150px; /* Adjust logo size for smaller screens */
+  }
+  .church-name {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  .contact-info p {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
 }
