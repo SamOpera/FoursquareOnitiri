@@ -6,9 +6,9 @@ body {
 }
 
 header {
-  background-color: rgb(238, 47, 47); /* Tomato red background */
-  color: #fff; /* White text color */
-  padding: 10px;
+  background-color: rgb(238, 47, 47);
+  color: #fff; 
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,13 +33,16 @@ header {
 
 
 .contact-info p {
-  margin: 5px 0;
+  margin-top: 20px;
+  margin-left: 5px;
   color:black; /* Dark gray text color */
+  
 }
 
 .contact-info a {
   color: black; /* Dark gray link color */
   text-decoration: none;
+  
 }
 
 .contact-info a:hover {
@@ -48,6 +51,7 @@ header {
 
 .contact-info i {
   margin-right: 5px; /* Add some spacing between the icon and text */
+  
 }
 
 main {
@@ -181,7 +185,7 @@ margin-bottom: 400px;
 }
 
 .church-name {
-  font-size: 15px;
+  font-size: 50px;
   color:white;
   
 }
@@ -195,7 +199,8 @@ margin-bottom: 400px;
   margin-left: 1px;
   color: white;
 }
+
 .event-picture {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
