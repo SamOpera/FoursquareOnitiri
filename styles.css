@@ -34,11 +34,11 @@ header {
 
 .contact-info p {
   margin: 5px 0;
-  color:white; /* Dark gray text color */
+  color:black; /* Dark gray text color */
 }
 
 .contact-info a {
-  color: white; /* Dark gray link color */
+  color: black; /* Dark gray link color */
   text-decoration: none;
 }
 
