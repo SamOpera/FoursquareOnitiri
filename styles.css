@@ -195,3 +195,7 @@ margin-bottom: 400px;
   margin-left: 1px;
   color: white;
 }
+.event-picture {
+  width: 100%;
+  height: auto;
+}
