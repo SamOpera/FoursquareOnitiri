@@ -17,18 +17,18 @@ header {
 .logo {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .logo img {
-  width: 100%; /* Adjust the percentage as needed */
-  max-width: 320px; /* Set a maximum width to ensure it doesn't become too large */
+  width: 100%; 
+  max-width: 320px; 
 }
 
 
 .ChurchName {
-  margin-top: 3px; /* Adjust spacing between logo and church name */
+  margin-top: 3px; 
 }
 
 
@@ -50,7 +50,7 @@ header {
 }
 
 .contact-info i {
-  margin-right: 5px; /* Add some spacing between the icon and text */
+  margin-right: 5px; 
   
 }
 
@@ -59,7 +59,7 @@ main {
 }
 
 .about-us {
-  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-top: 20px; 
   background-color: #87ceeb; /* Gold background */
   color: white; /* Dark gray text color */
   padding: 20px;
@@ -145,9 +145,9 @@ footer {
 }
 
 .custom-bullet-list li::before {
-  content: "\1F449"; /* Unicode for finger-point symbol */
-  font-family: 'Segoe UI Emoji', sans-serif; /* Specify a font that includes the finger-point symbol */
-  font-size: 1.5em; /* Adjust size as needed */
+  content: "\1F449"; 
+  font-family: 'Segoe UI Emoji', sans-serif; 
+  font-size: 1.5em; 
   margin-right: 10px;
 }
 
@@ -175,7 +175,7 @@ margin-bottom: 400px;
   display: block;
 }
 
-/* Additional styles for logo and church name */
+
 .logo {
   text-align: center;
 }
@@ -206,6 +206,6 @@ margin-bottom: 400px;
 }
 
 .pastor-image {
-  width: 41%;
+  width: 40%;
   height: auto;
 }
